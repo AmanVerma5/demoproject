@@ -1,0 +1,17 @@
+.bg-dark{
+    background-color: rgba(17,17,17,var(--bs-bg-opacity)) !important;
+}
+.logo:hover{
+    -webkit-text-stroke: 1px var(--white);
+    color: var(--black) !important;
+    transition: all .5s;
+    cursor: pointer;
+    
+}
+
+.search-container{
+    width:40%;
+}
+.links{
+    flex-grow: 0 !important;
+}
