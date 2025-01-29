@@ -10,6 +10,7 @@
     border:none;
     outline: none;
     caret-color: var(--grey);
+    width:95%;
 }
 
 
