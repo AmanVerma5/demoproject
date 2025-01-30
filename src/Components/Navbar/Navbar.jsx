@@ -1,15 +1,19 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Searchbar from '../SearchBar/Searchbar';
+import logo from '../../images/logo.png';
 
 
 
 const Navbar=()=>{
+
+  
    return(
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar" aria-label="Offcanvas navbar large">
     <div class="container-fluid">
       <Link class="navbar-brand logo" to="#">
-      QUICKSHOPR</Link>
+      QUICKSHOPR <span><img src={logo} style={{position:'relative',top:'-2px',height:"33px", width:"40px"}} alt=""/></span>
+      </Link>
       <div class="d-flex mt-3 mt-lg-0 search-container" role="search">
             <Searchbar/>
         </div>
@@ -25,7 +29,7 @@ const Navbar=()=>{
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" to="#">Home</Link>
+              <Link class="nav-link active"  aria-current="page" to="login">Login</Link>
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="#">Link</Link>
