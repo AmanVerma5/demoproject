@@ -3,7 +3,7 @@ import "./Product.css";
 
 const Product = ({ item }) => {
   return (
-    <div class="card mx-2" style={{ width: "18rem" }}>
+    <div class="card mx-2 product-container" style={{ width: "18rem" }}>
       <img src={item.image} class="card-img-top" alt="..." style={{height:"50%"}}/>
       <div class="card-body">
         <h5 class="card-title">{item.name}</h5>
