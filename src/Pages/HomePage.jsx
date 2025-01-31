@@ -8,7 +8,7 @@ import Section from "../Components/Section/Section"
 const HomePage=()=>{
     return(
         <>
-        <Navbar/>
+        <Navbar flag={true}/>
         <Carousel/>
         <Section/>
         <Footer/>
