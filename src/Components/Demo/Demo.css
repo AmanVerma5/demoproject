@@ -1,0 +1,24 @@
+.demo{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.demo div{
+    width: 100%;
+}
+.demo input{
+    width: 100%;
+}
+.outer-demo{
+    display: flex;
+    height:calc(100vh - 61px);
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../DemoData/imagesdata/9004494_75.jpg')
+}
+
+.registerhere-link{
+    text-align: center;
+}

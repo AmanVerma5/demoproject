@@ -18,7 +18,7 @@ const Navbar=({flag})=>{
    return(
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar" aria-label="Offcanvas navbar large">
     <div class="container-fluid">
-      <Link class="navbar-brand logo" to="#">
+      <Link class="navbar-brand logo" to="/">
       QUICKSHOPR <span><img src={logo} style={{position:'relative',top:'-2px',height:"33px", width:"40px"}} alt=""/></span>
       </Link>
       {

@@ -39,7 +39,7 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         ></input>
         <br></br>
-        <button type="submit" onClick={handleLogin}>
+        <button className="login-btn" type="submit" onClick={handleLogin}>
           Continue
         </button>
         <div className="forget-msg">Forget your password?</div>
